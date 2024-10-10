@@ -30,21 +30,21 @@ const Contact = () => {
             <form className='space-y-4' action="https://getform.io/f/anlerqqa" method="POST">
                 <div>
                     <label htmlFor="name" className='block mb-2'>Your Name</label>
-                    <input type="text" name="name"
+                    <input type="text" name="name" required
                     className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none
                     focus:border-green-400'
                     placeholder='Enter You Name'/>
                 </div>
                 <div>
                     <label htmlFor="emial" className='block mb-2'>Email</label>
-                    <input type="text" name="Email"
+                    <input type="text" name="Email" required
                     className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none
                     focus:border-green-400'
                     placeholder='Enter You Email'/>
                 </div>
                 <div>
                     <label htmlFor="message" className='block mb-2'>Message</label>
-                    <textarea type="text" name="message"
+                    <textarea type="text" name="message" required
                     className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none
                     focus:border-green-400'
                     rows="5"
