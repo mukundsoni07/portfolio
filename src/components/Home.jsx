@@ -3,7 +3,7 @@ import HomeImage from '../assets/home-image.jpg'
 import { TypeAnimation } from 'react-type-animation'
 
 const Home = () => {
-    const url = "https://drive.google.com/file/d/1WqGZouM9cibqPKJbt5VnspMg7fRgzjwY/view?usp=drive_link" //add resume google drive link here
+    const url = "https://drive.google.com/file/d/1sFEBQusp81-FarFof2QR08uw06zxmySN/view?usp=drive_link" //add resume google drive link here
 
   return (
     <div className='bg-black text-white text-center py-16'>
