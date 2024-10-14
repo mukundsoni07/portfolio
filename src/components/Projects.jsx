@@ -27,8 +27,16 @@ const projects = [
     technologies: "React JS, Tailwind CSS",
     image: blog,
     github: "https://github.com/mukundsoni07/Blog-App",
-    link: "https://blog-app-ivory-eight.vercel.app/",
+    link: "https://blog-app-jet-gamma.vercel.app/",
   },
+  {
+    id: 4,
+    name: "Chat App",
+    technologies: "React JS, Tailwind CSS",
+    image: blog,
+    github: "https://github.com/mukundsoni07/chat-app",
+    link: "https://chat-app-iota-ebon.vercel.app/",  
+  }
 ];
 
 const Projects = () => {
