@@ -2,6 +2,7 @@ import React from "react";
 import expense from "../assets/expense-tracker.png";
 import blog from "../assets/blog.png";
 import dictionary from "../assets/dictionary.png";
+import chat from "../assets/chat-app.png"
 import { Link } from "react-router-dom";
 
 const projects = [
@@ -33,7 +34,7 @@ const projects = [
     id: 4,
     name: "Chat App",
     technologies: "React JS, Tailwind CSS",
-    image: blog,
+    image: chat,
     github: "https://github.com/mukundsoni07/chat-app",
     link: "https://chat-app-iota-ebon.vercel.app/",  
   }
