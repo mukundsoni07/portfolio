@@ -4,6 +4,8 @@ import blog from "../assets/blog.png";
 import dictionary from "../assets/dictionary.png";
 import chat from "../assets/chat-app.png"
 import { Link } from "react-router-dom";
+import book from "../assets/bookStore.png"
+import notes from "../assets/notes.png"
 
 const projects = [
   {
@@ -37,7 +39,24 @@ const projects = [
     image: chat,
     github: "https://github.com/mukundsoni07/chat-app",
     link: "https://chat-app-iota-ebon.vercel.app/",  
-  }
+  },
+  {
+    id: 5,
+    name: "Book Store App",
+    technologies: "MERN Stack, Tailwind CSS",
+    image: book,
+    github: "https://github.com/mukundsoni07/book-store",
+    link: "https://book-store-zeta-opal.vercel.app/",  
+  },
+  {
+    id: 6,
+    name: "Notes App",
+    technologies: "MERN Stack, Tailwind CSS",
+    image: notes,
+    github: "https://github.com/mukundsoni07/notes-app",
+    link: "https://notes-app-mukundsoni07s-projects.vercel.app/",  
+  },
+
 ];
 
 const Projects = () => {
